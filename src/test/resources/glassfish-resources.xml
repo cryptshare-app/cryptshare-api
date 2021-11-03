@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE resources PUBLIC
+    "-//GlassFish.org//DTD GlassFish Application Server 3.1
+    Resource Definitions//EN"
+    "http://glassfish.org/dtds/glassfish-resources_1_5.dtd">
+<resources>
+    <jdbc-resource pool-name="cryptshare_test" jndi-name="jdbc/__share"/>
+
+    <jdbc-connection-pool driver-classname="org.postgresql.Driver"
+                          res-type="java.sql.Driver"
+                          name="cryptshare_test">
+        <property name="Password"       value="cryptshare" />
+        <property name="User"           value="cryptshare" />
+        <property name="URL"            value="jdbc:postgresql://localhost:15432/cryptshare-test-db" />
+    </jdbc-connection-pool>
+</resources>

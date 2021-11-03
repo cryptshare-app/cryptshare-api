@@ -1,0 +1,14 @@
+{
+  "t_users": [
+    {
+      "id": "1",
+      "version": "1",
+      "user_name": "test",
+      "email": "test@test.de",
+      "password_hash": "$2a$10$XSmBltv2TaqbosArHE0Yz./Oa.Z5YYareyTm7mBmP4Vi2HceOrX5i",
+      "password_salt": "$2a$10$XSmBltv2TaqbosArHE0Yz.",
+      "created_at": "2019-06-07 16:21:32",
+      "updated_at": "2019-06-07 16:21:32"
+    }
+  ]
+}
